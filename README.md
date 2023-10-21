@@ -6,9 +6,11 @@ Pre-made packs for every programming language.
 Available at this [link](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/pack).
 
 To add a pack modify the `plugins/community.lua` file by adding:
+
 ```lua
 { import = "astrocommunity.pack.<pack-name>"}
 ```
+
 within the `return {}` block.
 
 ## 🛠️ Installation
@@ -35,7 +37,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/darius-sas/astronvim-config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
