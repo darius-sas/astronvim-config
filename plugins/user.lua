@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+	"Pocco81/auto-save.nvim",
+	config = function()
+		 require("auto-save").setup {
+			 trigger_events = {"InsertLeave", "TextChanged"}, -- vim events that trigger auto-save. See :h events
+			 debounce_delay = 135, -- saves the file at most every `debounce_delay` milliseconds
+		 }
+	end,
+  }
 }
+
