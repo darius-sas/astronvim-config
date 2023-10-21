@@ -1,6 +1,15 @@
-# AstroNvim User Configuration Example
+# My AstroNvim User Configuration
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+## 📦 Community Packs
+
+Pre-made packs for every programming language.
+Available at this [link](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/pack).
+
+To add a pack modify the `plugins/community.lua` file by adding:
+```lua
+{ import = "astrocommunity.pack.<pack-name>"}
+```
+within the `return {}` block.
 
 ## 🛠️ Installation
 
